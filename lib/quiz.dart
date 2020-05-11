@@ -214,21 +214,6 @@ class Summary extends StatelessWidget{
                     fontSize: 35.0
                 ),),
 
-              Padding(padding: EdgeInsets.all(30.0)),
-
-              MaterialButton(
-                color: Colors.red,
-                onPressed: (){
-                  questionNumber = 0;
-                  finalScore = 0;
-                  Navigator.pop(context);
-                },
-                child: new Text("Quit",
-                  style: new TextStyle(
-                      fontSize: 20.0,
-                      color: Colors.white
-                  ),),)
-
             ],
           ),
         ),
